@@ -1,0 +1,112 @@
+/* CSS code for weather website style */
+/* Set some basic styles for body element */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #222;
+    color: white;
+  }
+  
+  /* Center and style container div */
+  .container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  /* Style and align heading */
+  h1 {
+     text-align: center; 
+     color: cyan; 
+     font-weight: bold;
+     text-shadow: 0 0 5px cyan;
+  }
+  
+  /* Style and align form elements */
+  form {
+     display: flex; 
+     justify-content: center; 
+     align-items: center; 
+  }
+  
+  /* Style and size input element */
+  input[type=text]{
+     width:300px; 
+     height:30px; 
+     margin-right:10px; 
+     border-radius: 5px;
+     border:none;
+     outline:none;
+     padding-left:10px;
+  }
+  
+  /* Style and size button element */
+  button{
+     width:100px; 
+     height:30px; 
+     border-radius:5px;
+     border:none;
+     outline:none;
+     background-color:cyan;
+     color:black;
+  }
+  
+  /* Add hover effect to button element */
+  button:hover{
+      transform : scale(1.1);
+      transition : all .3s ease-in-out ;
+      box-shadow : inset -2 -2 rgba(255 ,255 ,255 , .1) , inset -2 -2 rgba(255 ,255 ,255 , .1) ;
+  }
+    
+   /* Style and align div element where we show weather information */
+  .weather-info{
+  display:flex; 
+  flex-direction:column; 
+  align-items:center; 
+  margin-top :20 px ; 
+  
+   /* Add animation effect to div element */
+  
+   animation-name : fadeIn ;
+   animation-duration : .8s ;
+   animation-timing-function : ease-in-out ;
+  
+   }
+  
+   /* Define keyframes for fadeIn animation */
+  
+   @keyframes fadeIn {
+       from {opacity :0 ;}
+       to {opacity :1 ;}
+   }
+  
+   /* Style paragraph elements where we show weather information */
+  #cityName,#temp,#desc{
+  font-size :24 px ; 
+  
+   /* Add text shadow effect to paragraph elements */
+  
+   text-shadow :-1 px -1 px rgba(255 ,255 ,255 , .3) ,-2 px -2 px rgba(255 ,255 ,255 , .3) ,-3 px -3 px rgba(255 ,255 ,255 , .3) ,-4 px -4 px rgba(255 ,255 ,255 , .3) ,-5 px -5 px rgba(0,0,0,.6),-6 px -6 px rgba(0,0,0,.6),-7 px -7 px rgba(0,0,0,.6),-8 px -8 px rgba(0,0,0,.6);
+  
+   margin-bottom :10 px ; 
+  
+   }
+   
+  
+   /* Style image element where we show icon */
+  
+   img {
+  
+       width :100 px ; 
+  
+       height :100 px ; 
+  
+       border-radius :50 %;
+  
+        /* Add box shadow effect to image element */
+  
+        box-shadow :-1 px -1 px rgba(255 ,255 ,255 , .3) ,-2 px -2 px rgba(255 ,255 ,
+        }
+ /* CSS code for weather website style */ /* Set some basic styles for body element */ body { font-family: "Roboto", sans-serif; background-color: #222; color: white; } /* Center and style container div */ .container { width: 500px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); } /* Style and align heading */ h1 { text-align: center; color: cyan; font-weight: bold; text-shadow: 0 0 5px cyan; } /* Style and align form elements */ form { display: flex; justify-content: center; align-items: center; } /* Style and size input element */ input[type=text]{ width:300px; height:30px; margin-right:10px; border-radius: 5px; border:none; outline:none; padding-left:10px; } /* Style and size button element */ button{ width:100px; height:30px; border-radius:5px; border:none; outline:none; background-color:cyan; color:black; } /* Add hover effect to button element */ button:hover{ transform : scale(1.1); transition : all .3s ease-in-out ; box-shadow : inset -2 -2 rgba(255 ,255 ,255 , .1) , inset -2 -2 rgba(255 ,255 ,255 , .1) ; } /* Style and align div element where we show weather information */ .weather-info{ display:flex; flex-direction:column; align-items:center; margin-top :20 px ; /* Add animation effect to div element */ animation-name : fadeIn ; animation-duration : .8s ; animation-timing-function : ease-in-out ; } /* Define keyframes for fadeIn animation */ @keyframes fadeIn { from {opacity :0 ;} to {opacity :1 ;} } /* Style paragraph elements where we show weather information */ #cityName,#temp,#desc{ font-size :24 px ; /* Add text shadow effect to paragraph elements */ text-shadow :-1 px -1 px rgba(255 ,255 ,255 , .3) ,-2 px -2 px rgba(255 ,255 ,255 , .3) ,-3 px -3 px rgba(255 ,255 ,255 , .3) ,-4 px -4 px rgba(255 ,255 ,255 , .3) ,-5 px -5 px rgba(0,0,0,.6),-6 px -6 px rgba(0,0,0,.6),-7 px -7 px rgba(0,0,0,.6),-8 px -8 px rgba(0,0,0,.6); margin-bottom :10 px ; } /* Style image element where we show icon */ img { width :100 px ; height :100 px ; border-radius :50 %; /* Add box shadow effect to image element */ box-shadow :-1 px -1 px rgba(255 ,255 ,255 , .3) ,-2 px -2 px rgba(255 ,255 , } ```
+  

@@ -1,0 +1,33 @@
+<!-- HTML code for weather website layout -->
+<html>
+<head>
+   <title>Weather Website</title>
+   <!-- Link to external CSS file -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h1>Weather Website</h1>
+      <!-- Form element to get user input and call searchCity function -->
+      <form>
+         <input type="text" id="input" placeholder="Enter city name">
+         <!-- Button element to trigger searchCity function -->
+         <button type="button" onclick="searchCity()">Search</button>
+      </form>
+      <!-- Div element where we will show weather information -->
+      <div class="weather-info">
+         <!-- Paragraph element for city name -->
+         <p id="cityName"></p>
+         <!-- Paragraph element for temperature -->
+         <p id="temp"></p>
+         <!-- Paragraph element for description -->
+         <p id="desc"></p>
+         <!-- Image element for icon -->
+         <img id="icon" src="" alt="">
+      </div>
+   </div>
+   <!-- Script tag to link external JavaScript file -->
+   <script src="script.js"></script>
+</body>
+</html>
+
